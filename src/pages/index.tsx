@@ -3,12 +3,19 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <p>Please note. This is a work in progress.</p>
-      <h1>Book</h1>
-      <h2>Table of Contents</h2>
-      <ol>
+      <ol className="list-[upper-roman]">
         <li>
-          <Link href="/computer-science">Computer Science</Link>
+          <Link href="/foreword">Foreword</Link>
+        </li>
+        <li>
+          <Link href="/volumes/computer-science">Computer science</Link>
+          <ol className="list-[upper-alpha]">
+            <li>
+              <Link href="/volumes/computer-science/binary-numerals">
+                Binary numerals
+              </Link>
+            </li>
+          </ol>
         </li>
       </ol>
     </>

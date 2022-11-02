@@ -1,16 +1,6 @@
-# Computer Science
+#### Volume I: Computer Science
 
-In Computer Science, we study computation and information.
-
-For a programmer, developer, software engineer, whichever you prefer, the field of Computer Science can be a source of great use. However, it is not the bread and butter.
-
-If we accept that Computer Science is a collection of theoretical disciplines, then we can also accept that for the average programmer for whom practicality is the primary concern, Computer Science is a helpful friend, but not the only thing needed to get the job done.
-
-That being said, there are some incredibly useful aspects of Computer Science, that are helpful to understand for any programmer, and certainly not a disadvantage. In this chapter, we are going to cover some of these aspects.
-
-## Information
-
-### The binary numeral system
+## Binary numerals
 
 As far as the average programmer is concerned, information in the context of a computer program, starts at 0's and 1's and ends with a rich variety of data types ranging from media such as video, sound, imagery and more simpler things such as text and data.
 
@@ -46,21 +36,21 @@ That one reads similarly, I am finding the number of times I can have two differ
 
 We can use this knowledge to start creating binary numbers. Let's explore how that looks for a binary number with 4 digits.
 
-$(0)_2 = (0)_{10}$
+$(0000)_2 = (0)_{10}$
 
-$(1)_2 = (1)_{10}$
+$(0001)_2 = (1)_{10}$
 
-$(10)_2 = (2)_{10}$
+$(0010)_2 = (2)_{10}$
 
-$(11)_2 = (3)_{10}$
+$(0011)_2 = (3)_{10}$
 
-$(100)_2 = (4)_{10}$
+$(0100)_2 = (4)_{10}$
 
-$(101)_2 = (5)_{10}$
+$(0101)_2 = (5)_{10}$
 
-$(110)_2 = (6)_{10}$
+$(0110)_2 = (6)_{10}$
 
-$(111)_2 = (7)_{10}$
+$(0111)_2 = (7)_{10}$
 
 $(1000)_2 = (8)_{10}$
 
