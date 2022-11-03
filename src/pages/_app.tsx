@@ -18,7 +18,7 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   return getLayout(
     <>
       <Head>
-        <title>Silver Book</title>
+        <title>Book</title>
       </Head>
       <Component {...pageProps} />
     </>
