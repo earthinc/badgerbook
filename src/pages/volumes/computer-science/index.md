@@ -8,4 +8,5 @@ If we accept that Computer Science is a collection of theoretical disciplines, t
 
 That being said, there are some incredibly useful aspects of Computer Science, that are helpful to understand for any programmer, and certainly not a disadvantage. In this chapter, we are going to cover some of these aspects.
 
-- [Binary numerals](/volumes/computer-science/binary-numerals)
+- [Binary Numerals](/volumes/computer-science/binary-numerals)
+- [The Heap and the Stack](/volumes/computer-science/the-heap-and-the-stack)

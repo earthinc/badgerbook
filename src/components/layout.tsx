@@ -8,7 +8,7 @@ export default function Layout({ children }: LayoutProps) {
       <header className="h-16 sticky top-0 bg-white/25 backdrop-blur flex items-center shadow z-20">
         <div className="ml-8">
           <span className="uppercase font-semibold text-xl dark:text-white">
-            Book
+            The Badger Book
           </span>
         </div>
       </header>
@@ -16,7 +16,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="prose prose-slate dark:prose-invert">{children}</div>
       </main>
       <footer className="p-8 text-sm dark:text-slate-400">
-        &copy; 2022 Rare Earth Labs
+        &copy; 2023 Christoffer Hallas. All rights reserved.
       </footer>
     </>
   )

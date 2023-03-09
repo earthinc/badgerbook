@@ -2,17 +2,17 @@
 
 ## Binary numerals
 
-As far as the average programmer is concerned, information in the context of a computer program, starts at 0's and 1's and ends with a rich variety of data types ranging from media such as video, sound, imagery and more simpler things such as text and data.
+Computer programs process vast amounts of information. As far as the average programmer is concerned, information in the context of a computer program starts with 0's and 1's and ends with a rich variety of data types ranging from media such as video, sound, and imagery to simpler things such as text and data.
 
-So if you are up for it, continue reading and let's get into it.
+Don't let the binary representation of numbers intimidate you. It simply means expressing a number in the base-2 numeral system. This might sound daunting, but I assure you that it is not nearly as complex as it might seem.
 
-0's and 1's refers to the binary representation of a number, meaning a number expressed in the base-2 numeral system. This is not nearly as daunting as it sounds, I promise.
+Historically, humans have used a decimal numeral system. This is possibly because we have ten fingers, with "decimus" being Latin for tenth. Interestingly, the ancient Sumerians used the sexagesimal numeral system, base 60, which is still used today as the basis for measuring time, angles, and geographical coordinates. With twelve factors, 60 can be divided in many different ways, making it a useful system for keeping track of things.
 
-Historically it is believed that humans use a decimal numeral system possibly because we have 10 fingers, decimus being latin for tenth. Interestingly, the ancient Sumerians used the sexagesimal numeral system, base 60, and chances are, you use it every day too, since this is the basis for our measuring of time, as well as angles and geographical coordinates. Think about it. 60 has twelve factors, 1, 2, 3, 4, 5, 6, 10, 12, 15, 30 and 60. That means you can split 60 many different ways, making it a useful system for keeping track of things.
+In computers, we use the binary numeral system because that is how we can represent information in computer hardware. Simply put, it means that something is either on or off. When we combine multiple switches of on and off, which we can think of as their state, the combination of these states can be used to express ever larger numbers.
 
-Back to binary. In computers, we use the binary numeral system, because that is how we can represent information in computer hardware. Simply put, it means that something is either on or off. That's all good. But it gets better. When you combine multiple switches of on and off, which we can think of as their state, the combination of these states can be used to express ever larger numbers.
+To keep things simple, we will represent all binary numbers in the examples below in sequences of 8. This sequence is called an octet, a word, or a byte. When reading binary numbers, we read them from right to left. Any 0's on the left are not significant.
 
-For the sake of simplicity, we will represent all our binary numbers in the examples below in sequences of 8, that means octet, usually word and of course a byte. We are going to read our binary numbers from right to left. That means that any 0's on the left are not significant.
+I hope this information helps you gain a better understanding of binary numerals and why they are used in computer programming.
 
 $(00001010)_2 = (10)_{10}$
 
@@ -71,3 +71,9 @@ $(1111)_2 = (15)_{10}$
 Looking down this line of expressions, we can see a pattern starting to emerge. If a binary digit is set to 1, we can use that information, along with its position counting from the right to find our number. For example, we can expand $1011$ as seen below.
 
 $(1011)_2 = (2^3) + (2^1) + (2^0) =  8 + 2 + 1 = 11$
+
+At this point I suggest you give it a try on your own.
+
+1. Pick a binary number of any size.
+2. Parameterize the number following the formula seen above.
+3. Verify your result.
