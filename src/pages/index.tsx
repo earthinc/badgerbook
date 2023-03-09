@@ -12,7 +12,10 @@ export default function Home() {
           <ol className="list-[upper-alpha]">
             <li>
               <Link href="/volumes/computer-science/binary-numerals">
-                Binary numerals
+                Binary Numerals
+              </Link>
+              <Link href="/volumes/computer-science/the-heap-and-the-stack">
+                The Heap and the STack
               </Link>
             </li>
           </ol>
