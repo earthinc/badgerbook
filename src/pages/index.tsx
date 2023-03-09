@@ -14,6 +14,8 @@ export default function Home() {
               <Link href="/volumes/computer-science/binary-numerals">
                 Binary Numerals
               </Link>
+              <li>
+              </li>
               <Link href="/volumes/computer-science/the-heap-and-the-stack">
                 The Heap and the STack
               </Link>
