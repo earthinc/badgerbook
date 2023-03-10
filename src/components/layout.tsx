@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { PropsWithChildren } from 'react'
 
 type LayoutProps = PropsWithChildren
@@ -8,7 +9,9 @@ export default function Layout({ children }: LayoutProps) {
       <header className="h-16 sticky top-0 bg-white/25 backdrop-blur flex items-center shadow z-20">
         <div className="ml-8">
           <span className="uppercase font-semibold text-xl dark:text-white">
-            The Badger Book
+            <Link href="/">
+              The Badger Book
+            </Link>
           </span>
         </div>
       </header>

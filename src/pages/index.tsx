@@ -8,7 +8,7 @@ export default function Home() {
           <Link href="/foreword">Foreword</Link>
         </li>
         <li>
-          <Link href="/volumes/computer-science">Computer science</Link>
+          <Link href="/volumes/computer-science">Computer Science</Link>
           <ol className="list-[upper-alpha]">
             <li>
               <Link href="/volumes/computer-science/binary-numerals">
@@ -18,6 +18,16 @@ export default function Home() {
             <li>
               <Link href="/volumes/computer-science/the-heap-and-the-stack">
                 The Heap and the STack
+              </Link>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <Link href="/volumes/cryptography">Cryptography</Link>
+          <ol className="list-[upper-alpha]">
+            <li>
+              <Link href="/volumes/cryptography/salt-and-pepper">
+                Salt &amp; Pepper
               </Link>
             </li>
           </ol>
